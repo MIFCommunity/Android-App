@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AppPrivacyActivity"
+    tools:showIn="@layout/activity_app_privacy">
+
+    <WebView
+        android:id="@+id/privacy_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </WebView>
+
+    <CheckBox
+        android:id="@+id/privacy_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:contentDescription="@string/activity_privacy_policy_checkbox_description"
+        android:text="@string/activity_privacy_policy_checkbox_text"
+        app:layout_scrollFlags="scroll" />
+
+</android.support.v4.widget.NestedScrollView>

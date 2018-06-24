@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- AppCoreActivity activity related preferences -->
+    <string name="app_core_uri_scheme_secure">https</string>
+    <string name="app_core_uri_scheme_unsecure">http</string>
+    <string name="app_core_uri_authority">community.marketinvestorfund.com</string>
+    <string-array name="app_core_connection_profile_enums">
+        <item>ALWAYS</item>
+        <item>WHEN_POSSIBLE</item>
+        <item>NEVER</item>
+    </string-array>
+    <string name="app_core_connection_profile_default_value">WHEN_POSSIBLE</string>
+    <string name="app_core_connection_profile_pref">connection_profile</string>
+
+
+    <!-- AppSettingsActivity activity related preferences -->
+
+
+    <!-- AppPrivacyActivity activity related preferences -->
+    <string name="app_privacy_policy_uri_authority">www.marketinvestorfund.com</string>
+    <string name="app_privacy_policy_uri_path">privacy_policy.html</string>
+    <string name="app_privacy_policy_eula_acceptance">privacy_eula_acceptance</string>
+
+
+    <!-- AppAuthActivity activity related preferences -->
+    <string-array name="app_authorize_page_enums">
+        <item>REGISTER</item>
+        <item>LOGIN</item>
+        <item>RESET_PASSWORD</item>
+        <item>LOST_PASSWORD</item>
+    </string-array>
+    <string-array name="app_authorize_page_paths">
+        <item>register</item>
+        <item>login</item>
+        <item>login/?action=lostpassword</item>
+        <item>lostpassword</item>
+    </string-array>
+
+
+    <!-- AppHomeActivity activity related preferences -->
+    <string-array name="app_content_page_enums">
+        <item>FORUM</item>
+        <item>ACTIVITY</item>
+        <item>MEMBER</item>
+        <item>GROUPS</item>
+        <item>ACCOUNT</item>
+        <item>BLOG</item>
+    </string-array>
+    <string-array name="app_content_page_paths">
+        <item>community/forum</item>
+        <item>community/activity</item>
+        <item>community/members</item>
+        <item>community/groups</item>
+        <item>community/mifadmin</item>
+        <item>community/</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,139 @@
+<resources>
+    <!-- Application Core specific Locale -->
+    <string name="app_name">FOREX, Stocks &amp; Bonds, Cryptocurrency: Learning &amp; Investing</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Section: %1$d</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_app_privacy">Privacy Policy</string>
+
+
+    <!-- AppCoreActivity Activity specific records -->
+    <string name="activity_core_secure_connection_dialog_title">Server Connection Security</string>
+    <string name="activity_core_secure_connection_confirm_message">A secure connection to the server is required but could not be established.\n\nYou may change this preference from \'Settings\'->\'Connection Security\'.</string>
+    <string name="activity_core_secure_connection_warning_message">A optional secure connection to the server could not be established at this time.\n\nWould you like to continue unsecure?</string>
+    <string name="activity_core_secure_connection_button_retry">Retry</string>
+    <string name="activity_core_secure_connection_button_cancel">Cancel</string>
+    <string name="activity_core_secure_connection_button_continue">Continue</string>
+
+
+    <!-- AppPrivacyActivity Activity String Resources Locale-->
+    <string name="activity_privacy_policy_checkbox_text">I Confirm.</string>
+    <string name="activity_privacy_policy_checkbox_description">Check this box to sign the privacy policy agreement!</string>
+    <string name="activity_privacy_policy_dialog_title">MIF Community - Privacy Policy</string>
+    <string name="activity_privacy_policy_confirm_message">You have chosen to accept the terms of and conditions of the agree\n\nPlease confirm how you wish to proceed?</string>
+    <string name="activity_privacy_policy_warning_message">You have not checked the agreement at the bottom of the page.\n\nPlease confirm how you wish to proceed?</string>
+    <string name="activity_privacy_policy_button_accept">ACCEPT</string>
+    <string name="activity_privacy_policy_button_reject">Reject</string>
+    <string name="activity_privacy_policy_button_cancel">Cancel</string>
+
+
+    <!-- AppAuthActivity Activity Specific Records -->
+
+
+
+    <!-- Strings related to Settings -->
+
+    <!-- Application Connection Settings -->
+    <string name="pref_header_connection">Connection</string>
+    <string name="pref_connection_profile_title">Require Secure Connections:</string>
+    <string name="pref_connection_profile_summary">Enable SSL/TLS server connection.</string>
+    <string-array name="pref_connection_profile_display">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_app_auth">AppAuthActivity</string>
+    <string name="title_activity_app_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_app_auth_window">AppAuthWindowActivity</string>
+
+    <string name="title_activity_app_auth_full">AppAuthFullActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_app_basic">AppBasicActivity</string>
+    <string name="settings_connection_mode">Allow_Unsecure</string>
+
+
+</resources>
